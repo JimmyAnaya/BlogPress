@@ -1,5 +1,4 @@
 @extends('layouts.app')
-@extends('layouts.app')
 
 @section('content')
 <div class="container">
@@ -22,6 +21,8 @@
                 </div>
             </div>
             @endforeach
+
+            {{ $posts->links() }}
 
         </div>
     </div>
